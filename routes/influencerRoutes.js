@@ -11,6 +11,6 @@ router.get('/influencersname', influencerController.influencersname);
 // Route to save an influencer
 router.post('/', influencerController.saveInfluencer);
 
-// Add more routes as needed (update, delete, etc.)
+
 
 module.exports = router;

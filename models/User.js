@@ -5,7 +5,7 @@ const mongoose = require('mongoose');
 const userSchema = new mongoose.Schema({
     name: String,
     email: String,
-    password: String, // You should use a secure hashing mechanism for storing passwords
+    password: String, 
     phoneNumber: String,
     influencer: {
         type: Array

@@ -9,7 +9,6 @@ exports.googleIn = async (idToken) => {
         audience: config.googleClientId,
     });
     const payload = ticket.getPayload();
-    // You can customize this part based on your needs, e.g., create or update user in the database
     const user = {
         id: payload.sub,
         email: payload.email,
